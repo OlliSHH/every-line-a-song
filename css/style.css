@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .note{
     display: block;
+    left: 200px;
     width: 70px;
     height: 65px;
     border-right: 10px solid #FF004c;
@@ -8,6 +14,15 @@
     position: relative;
     box-sizing: border-box;
     margin: 15px;
+}
+.text{
+    display: block;
+    position: absolute;
+    top: 120px;
+    width: 100px;
+    height: 20px;
+    left: 210px;
+    color: #FF004c;
 }
 
 .note:before{
@@ -19,7 +34,7 @@
     border-radius: 15px;
     position: absolute;
     right: -10px;
-    bottom: -15px;
+    bottom: -19px;
 }
 
 .note:after{
@@ -31,7 +46,7 @@
     border-radius: 15px;
     position: absolute;
     left: -30px;
-    bottom: -15px;
+    bottom: -11px;
 
 
 }
