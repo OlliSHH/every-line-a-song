@@ -8,9 +8,9 @@
     left: 200px;
     width: 70px;
     height: 65px;
-    border-right: 10px solid #FF004c;
-    border-left: 10px solid #FF004c;
-    border-top: 20px solid #FF004c;
+    border-right: 10px solid darkgrey;
+    border-left: 10px solid darkgrey;
+    border-top: 20px solid darkgrey;
     position: relative;
     box-sizing: border-box;
     margin: 15px;
@@ -18,10 +18,13 @@
 .text{
     display: block;
     position: absolute;
-    top: 120px;
+    top: 110px;
     width: 100px;
     height: 20px;
-    left: 210px;
+    left: 200px;
+    color: darkgrey;
+}
+span{
     color: #FF004c;
 }
 
